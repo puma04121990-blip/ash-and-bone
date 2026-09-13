@@ -26,6 +26,12 @@ jobs:
           cache: pnpm
       - run: pnpm install --frozen-lockfile
       - run: pnpm build
+      - name: Sync docs for legacy Pages fallback
+        run: |
+          rm -rf docs
+          mkdir docs
+          cp -a dist/. docs/
+          touch docs/.nojekyll
       - uses: actions/upload-pages-artifact@v3
         with:
           path: dist
