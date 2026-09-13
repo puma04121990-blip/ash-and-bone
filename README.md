@@ -57,3 +57,9 @@ Ash `#3A3530`, Dirt `#4A3228`, Stone `#6E6558`, Abyss `#121018`, Bone `#C9B89A`,
 | `assets/coin.png` | 16×16 |
 
 Generated with pure Node PNG buffers (`pnpm gen:assets`).
+
+## GitHub Pages
+
+Live: https://puma04121990-blip.github.io/ash-and-bone/
+
+Deploy is automatic on push to `main` (workflow **Deploy GitHub Pages**). Open that path — not the account root `*.github.io` without `/ash-and-bone/`.

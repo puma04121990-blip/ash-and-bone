@@ -1,7 +1,8 @@
 import { defineConfig } from 'vite';
 
+// Project Pages URL: https://<user>.github.io/ash-and-bone/
 export default defineConfig({
-  base: './',
+  base: '/ash-and-bone/',
   server: {
     port: 5173,
     host: true,
